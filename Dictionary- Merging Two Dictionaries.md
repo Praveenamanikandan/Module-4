@@ -1,18 +1,39 @@
-## Dictionary Operations in Python: Merging Two Dictionaries
+## AIM
+To  to display the remarks for the grade using simple if statement
 
-## 🎯 Aim
-To write a Python program that merges **two dictionaries** and combines their key-value pairs.
 
-## 🧠 Algorithm
-1. Define two dictionaries `dict1` and `dict2` with some key-value pairs.
-2. Define a function `merge()` that merges the two dictionaries using the `**` unpacking operator.
-   - The merged result will combine keys from both dictionaries. If a key exists in both, the value from `dict2` will overwrite that from `dict1`.
-3. Call the `merge()` function and print the merged dictionary.
+## ALGORITHM
+Step 1: Start the program. 
+Step 2: Take the necessary input(s) from the user.
+Step 3: Process the input(s) using suitable operations or conditions. 
+Step 4: Display the result/output to the user. Step 5: Stop the program.
 
-## 🧾 Program
+## PROGRAM
+```
+#include<stdio.h>
+int main(){
+    char grade;
+    scanf("%c",&grade);
+    if(grade == 'A' || grade == 'a'){
+        printf("Excellence\n");
+    }
+    else if(grade == 'B' || grade == 'b'){
+        printf("Very Good");
+    }
+    else if(grade == 'C' || grade =='c'){
+        printf("Fair");
+    }
+    else if(grade == 'D' || grade == 'd'){
+        printf("Bad");    
+    }
+    else if(grade == 'E' || grade == 'e'){
+        printf("Fail");
+    }
+}
 
-Add code here
+```
+## OUTPUT
+<img width="696" height="202" alt="image" src="https://github.com/user-attachments/assets/36ecbf20-169c-45b1-9dba-d0f0c2490293" />
 
-## Output
-
-## Result
+## RESULT
+The program was executed successfully
