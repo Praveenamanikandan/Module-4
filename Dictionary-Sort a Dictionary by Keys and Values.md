@@ -1,38 +1,35 @@
-# 🔤 Dictionary-Python Program to Sort a Dictionary by Keys and Values
+## AIM
+write a c program to read a string.
 
-This Python program demonstrates how to sort a dictionary:
-- Alphabetically by keys
-- Alphabetically by values
 
----
 
-## 🎯 Aim
 
-To write a Python program that sorts a dictionary's:
-- Keys in alphabetical order
-- Values in alphabetical order
+## ALGORITHM
+Step 1: Start the program. 
+Step 2: Take the necessary input(s) from the user.
+Step 3: Process the input(s) using suitable operations or conditions. 
+Step 4: Display the result/output to the user. Step 5: Stop the program.
 
----
+## PROGRAM
+```
+#include <stdio.h>
 
-## 🧠 Algorithm
+int main() {
+    char str[100];
 
-1. **Start the program.**
-2. **Define** a dictionary with key-value pairs.
-3. **Sort by Keys**:
-   - Use `sorted(dictionary.items())`
-   - Convert the result to a dictionary using `dict()`
-4. **Sort by Values**:
-   - Use `sorted(dictionary.items(), key=lambda item: item[1])`
-   - Convert the result to a dictionary using `dict()`
-5. **Display** the original and sorted dictionaries.
-6. **End the program.**
+   
+    scanf("%s", str);
 
----
+    // Print the entered string
+    printf("You have entered %s.\n", str);
 
-## 🧪Program
-Add Code here
+    return 0;
+}
 
-## Sample Output
 
-## Result
+```
+## OUTPUT
+<img width="783" height="199" alt="image" src="https://github.com/user-attachments/assets/02c78d99-bb0a-46c0-8835-2c3154e08320" />
 
+## RESULT
+The program was executed successfully
