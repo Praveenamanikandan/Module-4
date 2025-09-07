@@ -1,19 +1,27 @@
-# Classes and Objects in Python: Calculate the Area of a Circle
+## AIM
+To perform the basic right shift operation for 60 integer number with 3 shift.  
 
-## 🎯 Aim
-To write a Python program that calculates the **area of a circle** based on the radius provided by the user. This program uses a class named `cse` and a method `mech` to perform the calculation.
 
-## 🧠 Algorithm
-1. **Get user input**: Take the radius of the circle as input from the user.
-2. **Define the class**: Create a class named `cse`.
-3. **Define the method**: Inside the class, define the method `mech` to calculate the area of the circle using the formula:  
-   Area = pi *r^2 
-4. **Execute the program**: Create an object of the class and call the method with the radius value.
 
-## 🧾 Program
+## ALGORITHM
+Step 1: Start the program. 
+Step 2: Take the necessary input(s) from the user.
+Step 3: Process the input(s) using suitable operations or conditions. 
+Step 4: Display the result/output to the user. Step 5: Stop the program.
 
-Add code here
+## PROGRAM
+```
+#include<stdio.h>
+int main(){
+    unsigned int a=60; 
+    int c;
+    c = a >> 3;
+    printf("After Right Shift Operation value of a is:%d",c);
+}
 
-## Output
+```
+## OUTPUT
+<img width="1001" height="166" alt="image" src="https://github.com/user-attachments/assets/410ee066-3d83-45c6-a406-7ce8e1a7bfb2" />
 
-## Result
+## RESULT
+The program was executed successfully
